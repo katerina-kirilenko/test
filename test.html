@@ -9,21 +9,5 @@
 <body>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque perspiciatis id, sequi asperiores qui aliquam eos vel aut atque, fugiat autem ab deserunt cupiditate ipsam libero voluptates earum. Voluptate, non.</p>
 </body>
-<script>
-function isPalindrome(line) {
-  let newLine = String(line);
-  for (let i = 0; i < newLine.length/2; i++) {  
-    if (newLine[i] !== newLine[newLine.length - i - 1]) {
-      return false;
-      }    
-    }
-  return true;
-}
-
-console.log(isPalindrome("anna")); //true
-console.log(isPalindrome("walter")); // false
-console.log(isPalindrome(12321));  //true
-console.log(isPalindrome(123456));  // false
-
-</script>
+<script src="src/script.js"/>
 </html>
